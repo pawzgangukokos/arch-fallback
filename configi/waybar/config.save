@@ -1,0 +1,83 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 5,
+  "spacing": 14,
+
+  "modules-left": ["hyprland/workspaces", "custom-music"],
+  "modules-center": ["clock"],
+  "modules-right": ["network", "pulseaudio",  "battery", "tray", "custom/power"],
+
+  "hyprland/workspaces": {
+	"disable-scroll": true,
+	"all-outputs": true
+},
+
+  "clock": {
+	"format": "{:%H:%M}",
+	"tooltip-format": "{:%A, %d %B %Y}"
+},
+
+  "battery": {
+        "states": {
+            "good": 80,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+	"padding": 6,
+        "format-full": "{capacity}%  ",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon}",
+        "format-good": "{capacity}%  ", 
+        "format-full": "{capacity}%",
+        "format-icons": [" ", " ", " ", " ", " "]
+},
+
+  "custom/power": {
+        "format" : "⏻ ",
+                "tooltip": false,
+		"on-click": "wlogout",
+		"menu-file": "wlogout",
+              //  "menu": "on-click",
+              //  "menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+              //  "menu-actions": {
+              //          "shutdown": "shutdown",
+              //          "reboot": "reboot",
+              //          "suspend": "systemctl suspend",
+              //          "hibernate": "systemctl hibernate"
+  },
+ },
+
+"network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this inte>
+        "format-wifi": "{icon}",
+	"format-icons": ["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
+        "format-ethernet": "  ", // 
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP)  ",
+   //     "format-disconnected": "Disconnected ⚠ ",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+"pulseaudio": {
+  "format-icons":
+  "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+  "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+  "on-click": "pavucontrol"
+}
+
+"custom-music": {
+    "format": "{title} — {artist}",
+    "player": "spotify",     // albo "mpd", "vlc", "mpv" itp.
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+}
+
+
+
+
+
+}

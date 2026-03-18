@@ -1,0 +1,54 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: mononoki-Bold, FontAwesome, Roboto, Helvetica, Arial, sans-serif, JetBrainsMono-Nerd-Font;
+    font-size: 15px;
+}
+
+window#waybar {
+    background-color: rgba(43, 48, 59, 0.5);
+    border-bottom: 2px solid rgba(100, 114, 125, 0.5);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#battery {
+    background-color: rgba(43, 48, 59, 0);
+    color: #ffffff;
+    font-family: mononoki-Bold;
+    font-size: 15px;}
+
+#workspaces button {
+	color: #ffffff; 
+        font-family: mononoki-Bold;
+        font-size: 15px;
+}
+
+#clock {
+	font-family: mononoki-Bold;
+	font-size: 20px;
+}
+
+#custom-music {
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+#custom-music.playing {
+  color: #a6e3a1;
+  background: #1e1e2e;
+}
+
+#custom-music.paused {
+  color: #f9e2af;
+  background: #1e1e2e;
+}
+
+#custom-music.stopped {
+  color: #6c7086;
+  background: #1e1e2e;
+}

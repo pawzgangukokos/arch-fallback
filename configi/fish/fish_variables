@@ -1,0 +1,8 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_color:cyan
+SETUVAR fish_color_user:cyan
+SETUVAR fish_greeting:
+SETUVAR fish_prompt_color:cyan
+SETUVAR fish_prompt_user:cyan
