@@ -59,7 +59,6 @@ sudo cp -r ./themes/* /usr/share/themes
 #Fonty
 echo "Kopiowanie fontów"
 sudo cp -r ./fonts/* /usr/share/fonts
-sudo cp ./fonts/* /usr/share/fonts
 
 
 #Ikonki
