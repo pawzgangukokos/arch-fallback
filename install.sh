@@ -51,7 +51,22 @@ fish -c "set -U fish_color_user cyan" 2>/dev/null || true
 fish -c "set -U fish_greeting "" " 2>/dev/null || true
 
 
+#Motywy
+echo "Kopiowanie motywów"
+sudo cp -r ./themes/* /usr/share/themes
+sudo cp ./themes/* /usr/share/themes
 
+
+#Fonty
+echo "Kopiowanie fontów"
+sudo cp -r ./fonts/* /usr/share/fonts
+sudo cp ./fonts/* /usr/share/fonts
+
+
+#Ikonki
+echo "Kopiowanie ikonek"
+sudo cp -r ./icons/* /usr/share/icons
+sudo cp ./icons/* /usr/share/icons
 
 
 #ZAKOŃCZENIE
