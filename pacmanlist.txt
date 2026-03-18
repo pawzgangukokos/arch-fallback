@@ -22,7 +22,6 @@ linux-zen-headers
 lxappearance
 nano
 nemo
-neofetch
 networkmanager
 pipewire
 pipewire-alsa
@@ -35,10 +34,6 @@ unzip
 virtualbox
 waybar
 wireplumber
-wlogout
 wpa_supplicant
 xdg-desktop-portal-hyprland
-yay
-yay-debug
-zen-browser-bin
 zip
