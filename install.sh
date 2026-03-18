@@ -54,7 +54,6 @@ fish -c "set -U fish_greeting "" " 2>/dev/null || true
 #Motywy
 echo "Kopiowanie motywów"
 sudo cp -r ./themes/* /usr/share/themes
-sudo cp ./themes/* /usr/share/themes
 
 
 #Fonty
@@ -66,7 +65,6 @@ sudo cp ./fonts/* /usr/share/fonts
 #Ikonki
 echo "Kopiowanie ikonek"
 sudo cp -r ./icons/* /usr/share/icons
-sudo cp ./icons/* /usr/share/icons
 
 
 #ZAKOŃCZENIE
