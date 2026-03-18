@@ -1,44 +1,44 @@
-asciiquarium 1.1-7
-base 3-3
-base-devel 1-2
-btop 1.4.6-1
-cmatrix 2.0-4
-efibootmgr 18-3
-fish 4.5.0-2
-git 2.53.0-1
-gst-plugin-pipewire 1:1.6.2-1
-hyprland 0.54.2-1
-hyprpaper 0.8.3-2
-intel-ucode 20260227-1
-kitty 0.46.1-1
-libpulse 17.0+r98+gb096704c0-1
-libreoffice-fresh 26.2.1-2
-lightdm 1:1.32.0-6
-lightdm-gtk-greeter 1:2.0.9-1
-limine 10.8.5-1
-linux-firmware 20260309-1
-linux-zen 6.19.8.zen1-1
-linux-zen-headers 6.19.8.zen1-1
-lxappearance 0.6.4-3
-nano 8.7.1-1
-nemo 6.6.3-1
-neofetch 7.1.0-2
-networkmanager 1.56.0-1
-pipewire 1:1.6.2-1
-pipewire-alsa 1:1.6.2-1
-pipewire-jack 1:1.6.2-1
-pipewire-pulse 1:1.6.2-1
-rofi 2.0.0-1
-sof-firmware 2025.12.2-1
-sudo 1.9.17.p2-2
-unzip 6.0-23
-virtualbox 7.2.6-1
-waybar 0.15.0-2
-wireplumber 0.5.13-1
-wlogout 1.2.2-0
-wpa_supplicant 2:2.11-5
-xdg-desktop-portal-hyprland 1.3.11-3
-yay 12.5.7-1
-yay-debug 12.5.7-1
-zen-browser-bin 1.19.3b-1
-zip 3.0-11
+asciiquarium
+base
+base-devel
+btop
+cmatrix
+efibootmgr
+fish
+git
+gst-plugin-pipewire
+hyprland
+hyprpaper
+intel-ucode
+kitty
+libpulse
+libreoffice-fresh
+lightdm
+lightdm-gtk-greeter
+limine
+linux-firmware
+linux-zen
+linux-zen-headers
+lxappearance
+nano
+nemo
+neofetch
+networkmanager
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+rofi
+sof-firmware
+sudo
+unzip
+virtualbox
+waybar
+wireplumber
+wlogout
+wpa_supplicant
+xdg-desktop-portal-hyprland
+yay
+yay-debug
+zen-browser-bin
+zip

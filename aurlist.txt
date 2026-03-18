@@ -1,5 +1,5 @@
-neofetch 7.1.0-2
-wlogout 1.2.2-0
-yay 12.5.7-1
-yay-debug 12.5.7-1
-zen-browser-bin 1.19.3b-1
+neofetch
+wlogout
+yay
+yay-debug
+zen-browser-bin
